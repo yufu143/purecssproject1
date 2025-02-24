@@ -5,18 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pure CSS Webpage</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #FAF9F6;
+        }
+        .header {
+            background-color: aqua;
+        }
+        .header img {
+            width: 100px;
+            display: block;
+            margin:auto;
+        }
+        .header h1 {
+            text-align: center;
+            margin-top: -5px;
+        }
+        .pure-menu {
+            background-color:lightgray;
+            font-weight: bold;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            margin-top: -21px;
+        }
+        .principal{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            text-align: left;
+            padding: 15px;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        .principal h2 {
+            font-weight: bold;
+            font-style: italic;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-top: -50px;
+        }
+        .principal_name {
+            font-style: italic;
+            font-size: 18px;
+            margin: 0;
+            color: #555;
+            text-align: right;
+            margin-top: -220px;
+            margin-right: 30px;
+        }
+    </style>
 </head>
 <body>
     <!--QUINN-->
-    <header>
-
-    </header>
-    <nav>
-
+    <div class="header">
+        <img src="school-logo.png" alt="School Logo">
+        <h1>Saint Mary's Charter School</h1>
+    </div>
+    <nav class="pure-menu pure-menu-horizontal">
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Home</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Calendar</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Faculty</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Families</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact</a></li>
+        </ul>
     </nav>
-
-    <div>
-
+    <div class="principal">
+        <img src="high-school.jpg" alt="High School">
+        <h2>"At our school, we believe that every child has the potential to achieve greatness. We foster a supportive and dynamic learning environment where curiosity is encouraged, talents are nurtured, and character is built. Our dedicated teachers, diverse programs, and strong sense of community ensure that every student feels valued and empowered to succeed—not just in the classroom, but in life."</h2>
+    </div>
+    <div class="principal_name">
+        <h1>- Principal John Smith </h1>
     </div>
 
     <!--YUJIA-->
