@@ -44,7 +44,6 @@
             font-weight: bold;
             font-style: italic;
             font-family: Georgia, 'Times New Roman', Times, serif;
-            margin-top: 50px;
         }
         .principal_name {
             font-style: italic;
@@ -59,8 +58,8 @@
             display: flex;
             flex-direction: row;
             gap: 80px;
-            margin-top: 150px;
-            margin-left: 200px;
+            margin-top: 100px;
+            margin-left: 150px;
         }
         .play .library .camp{
             display: flex;
@@ -70,7 +69,6 @@
             border-radius: 10px;
             max-width: 320px;
             width: 100%;
-            background-color: #f9fafb;
             text-align: left;
         }
         .bottom_images img {
@@ -91,6 +89,40 @@
             text-align: left;
             margin-top: 8px; 
         }   
+        .footer {
+            background-color: #333; 
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+        }
+        .footer img {
+            display: block;
+            width: 100px;
+        }
+        .footer nav {
+            display: flex;
+        }
+        .footer-nav {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin-left: 90px;
+            margin-top: -60px;
+        }
+        .footer-nav li {
+            margin-left: 10px;
+        }
+        .footer-nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+            padding: 0 10px;
+        }
+        .footer-nav a:hover {
+            color: #f9b234;     
+        }
     </style>
 </head>
 <body>
@@ -121,7 +153,7 @@
         <div class="play">
             <img src="theatreplay.jpg" alt="play">
             <h1>Upcoming 2025 Seasonal Spring Play!</h1>
-            <p>Tickets Now Available</p>
+            <p>Tickets Now Available for Friday and Saturday Student Shows</p>
         </div>
         <div class="library">
             <img src="library.jpg" alt="library">
@@ -133,6 +165,20 @@
             <h1>Summer Camp Sign-Ups Open</h1>
             <p>Forms at School Entrance & Faculty Office</p>
         </div>
+    </div>
+    <div class="footer">
+        <footer>
+            <img src="school-logo.png" alt="logo">
+            <nav>
+                <ul class="footer-nav">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </nav>
+        </footer>
     </div>
 </body>
 </html>
